@@ -5,17 +5,23 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "devn": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@tailwindcss/vite": "^4.0.9",
     "autoprefixer": "^10.4.20",
+    "axios": "^1.8.1",
+    "dotenv": "^16.4.7",
+    "gsap": "^3.12.7",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0",
+    "remixicon": "^4.6.0",
     "tailwindcss": "^4.0.9"
   },
   "devDependencies": {
